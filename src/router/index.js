@@ -4,6 +4,7 @@ import {
 } from 'vue-router'
 import BookCard from '../components/cards/BookCard.vue'
 import Home from '../App.vue'
+import HelloWorld from '../components/HelloWorld.vue'
 
 const routerHistory = createWebHistory()
 
@@ -16,6 +17,10 @@ const router = createRouter({
         {
             path: '/BookCard',
             component: BookCard
+        },
+        {
+            path: '/HelloWorld',
+            component: HelloWorld
         }
     ]
 })
