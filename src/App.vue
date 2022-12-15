@@ -7,6 +7,7 @@
   <div id="#app">
     <div><router-link to="/"> Home</router-link></div>
     <div><router-link to="/HelloWorld"> HelloWorld</router-link></div>
+    <div><router-link to="/GameCard"> GameCard </router-link></div>
     <router-link to="/BookCard">BookCard</router-link>
     <router-view />
   </div>

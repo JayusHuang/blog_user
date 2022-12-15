@@ -2,9 +2,9 @@ import {
     createRouter,
     createWebHistory
 } from 'vue-router'
-import BookCard from '../components/cards/BookCard.vue'
+import BookCard from '../client/cards/BookCard.vue'
+import GameCard from '../client/cards/GameCard.vue'
 import Home from '../App.vue'
-import HelloWorld from '../components/HelloWorld.vue'
 
 const routerHistory = createWebHistory()
 
@@ -19,9 +19,9 @@ const router = createRouter({
             component: BookCard
         },
         {
-            path: '/HelloWorld',
-            component: HelloWorld
-        }
+            path: '/GameCard',
+            component: GameCard
+        },
     ]
 })
 
